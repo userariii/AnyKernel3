@@ -4,7 +4,11 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=RedCherry+ Kernel by CRUECY
+kernel.string=RedCherry+ Kernel
+kernel.compiler=Aosp Clang 19
+kernel.made=CRUECY
+kernel.version=4.14.336
+message.word=Thank you for installing RedCherry+ Kernel
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -35,7 +39,6 @@ patch_vbmeta_flag=auto;
 # set permissions/ownership for included ramdisk files
 set_perm_recursive 0 0 755 644 $ramdisk/*;
 set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
-
 
 ## AnyKernel boot install
 dump_boot;
