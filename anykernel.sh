@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Etherious Kernel by SonalSingh18
+kernel.string=Pure_Perf Kernel by TusharInd007
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -15,7 +15,7 @@ device.name2=curtana
 device.name3=excalibur
 device.name4=gram
 device.name5=joyeuse
-supported.versions=10.0-11.0
+supported.versions=11.0-12.0
 supported.patchlevels=
 '; } # end properties
 
