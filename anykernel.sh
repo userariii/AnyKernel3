@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Pure_Perf Kernel by TusharInd007
+kernel.string=Forza Kernel by Lopster_70
 do.devicecheck=1
 do.modules=0
 do.systemless=1
