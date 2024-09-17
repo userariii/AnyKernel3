@@ -62,7 +62,7 @@ write_boot;
 
 # init_boot shell variables
 #BLOCK=init_boot;
-#IS_SLOT_DEVICE=1;
+#IS_SLOT_DEVICE=auto;
 #RAMDISK_COMPRESSION=auto;
 #PATCH_VBMETA_FLAG=auto;
 
